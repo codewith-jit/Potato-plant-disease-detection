@@ -15,10 +15,14 @@ The model is trained on the **PlantVillage** dataset.
 * **Image Specs:** 256x256 px, RGB.
 
 ## 🛠️ Technologies
-* Python
-* TensorFlow / Keras
-* Matplotlib
-* NumPy
+* python 3.8 and higher
+* tensorFlow==2.5.0
+* matplotlib
+* fastapi
+* uvicorn
+* pillow
+* tensorflow-serving-api==2.5.0
+* numPy
 
 ## ⚙️ Model Architecture
 A custom CNN architecture comprising:
